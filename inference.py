@@ -137,6 +137,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     args.device = "cuda"
+
+    print("***SET THE CUDA ON***")
     # if torch.cuda.is_available() and not args.cpu:
     # else:
     #     args.device = "cpu"
